@@ -3,11 +3,10 @@
 class RandomBackgroundImages {	
     constructor()
     {
+
         this.imageList=
-        [
-            {src:'http://imgur.com/ljQVAD9.png',"background-size":"cover"},
-            {src:'http://imgur.com/KbfvL2h.png',"background-size":"cover"},
-            {src:'http://imgur.com/h9Bm0EF.png',"background-size":"cover"}
+        bdPluginStorage.get(this.getName(),"imageList")||[
+            {src:'http://imgur.com/ljQVAD9.png',"background-size":"cover"}
         ];
     }
     getName() { return "RandomBackgroundImages"; }
