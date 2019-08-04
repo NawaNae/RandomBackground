@@ -1,4 +1,4 @@
-//META{"name":"RandomBackgroundImages","website":"https://hackmd.io/kFDZRnfKT7ueu089o97nZA?view","source":"https://github.com/NawaNae/GetScreenSharingLink/blob/master/GetScreenShareLink.plugin.js"}*//
+//META{"name":"RandomBackgroundImages","website":"https://hackmd.io/tcY9eiXHTye_6PC1jaaMgg","source":"https://github.com/NawaNae/RandomBackground"}*//
 //原始範例 : https://github.com/Metalloriff/BetterDiscordPlugins/blob/master/VoiceChatNotifications.plugin.js
 class RandomBackgroundImages {	
     constructor()
@@ -59,7 +59,7 @@ class RandomBackgroundImages {
         {
             backgroundSize:img.backgroundSize||img['background-size'],
             backgroundRepeat:img.backgroundRepeat||img['background-repeat'],
-            backgroundColor:img.backgroundRepeat||img['background-repeat'],
+            backgroundColor:img.backgroundRepeat||img['background-color'],
             backgroundPosition:img.backgroundPosition||img['background-position'],
             backgroundAttachment:img.backgroundAttachment||img['background-attachment']
         };
