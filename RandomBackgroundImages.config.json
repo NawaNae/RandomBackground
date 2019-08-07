@@ -12,6 +12,17 @@
         {
             "src":"http://imgur.com/h9Bm0EF.png",
             "background-size":"cover"
+        },
+        {
+            "src":"http://cdn-ak.f.st-hatena.com/images/fotolife/n/nullnull7/20140405/20140405105822.jpg",
+            "background-size":"100% 100%"
         }
-    ]
+        ,"http://m.espacepourlavie.ca/sites/espacepourlavie.ca/files/styles/nocrop-gr8/public/perseides_0.jpg"
+    ],
+    "carousel":
+    {
+        "enable":true,
+        "random":true,
+        "changeEvery":"10m"
+    }
 }
