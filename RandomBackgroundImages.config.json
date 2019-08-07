@@ -24,5 +24,11 @@
         "enable":true,
         "random":true,
         "changeEvery":"10m"
+    },
+    "transition":
+    {
+        "transition-duration":"0.3s",
+        "transition-timing-function":"ease-out",
+        "transition-property":"background-image"
     }
 }
